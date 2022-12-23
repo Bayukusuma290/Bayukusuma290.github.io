@@ -104,6 +104,10 @@ body{
 /* navbar */
 @media (max-width: 575.98px){
     
+     .navbar-brand {
+        font-size: 15px;
+    }
+    
     .nav-link{
         text-transform: inherit;
         font-size: 15px;
