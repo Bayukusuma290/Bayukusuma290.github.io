@@ -1,0 +1,146 @@
+body{
+    background-image: url(image/background-hitam.png);
+    background-size: cover;
+}
+
+/* navbar */
+
+.navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    
+}
+
+.tombol{
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.ppmp{
+
+    font-size: 20px;
+    
+    
+}
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: small;
+
+
+}
+
+
+.info-panel {
+    background-color: white;
+    margin-top: -30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(252, 251, 251, 0.7);
+}
+
+.info-panel h2 {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:60px;
+}
+
+.info-panel p {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+}
+
+.text-center h2 p {
+    margin-bottom: 100px;
+}
+
+.col {
+    margin-top: 10px;
+}
+
+/* about us */
+.about-us {
+    background-color: whitesmoke;
+    margin-top: 50px;
+    box-shadow: 0 3px 10px rgba(241, 238, 238, 0.7);
+    border-radius: 10px;
+}
+
+.img-thumbnail {
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-breadcrump {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* versi desktop */
+/* navbar */
+@media (max-width: 1200px){
+
+    .navbar-brand .nav-item .nav-link{
+        text-shadow: 1px 1px 1px rgba(0,0,0, 0.7);
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* versi handphone */
+/* navbar */
+@media (max-width: 575.98px){
+    
+    .nav-link{
+        text-transform: inherit;
+        font-size: 15px;
+    }
+
+    .tombol{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .info-panel {
+        margin-top: -20px;
+    }
+   
+    .info-panel h2 {
+        background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size:30px;
+    }
+    
+    .info-panel p {
+        background-color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size:10px;
+        font-weight: bold;
+    }
+
+    .img-thumbnail {
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+
+
+
+}
