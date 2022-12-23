@@ -13,7 +13,7 @@ body{
 .navbar-brand{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    margin-right: 1rem;
+    margin-right: -0.5rem;
     font-size: 35px;
 
 }
@@ -33,7 +33,7 @@ body{
     text-transform: uppercase;
     margin-right: 10px;
     font-weight: bold;
-    font-size: small;
+    font-size: 15px;
 
 
 }
@@ -117,13 +117,13 @@ body{
 
     .navbar-brand {
         font-size: 18px;
-        margin-right: -1rem;
+        margin-left: -0.5rem;
 
     }
     
     .nav-link{
         text-transform: inherit;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .tombol{
