@@ -5,10 +5,17 @@ body{
 
 /* navbar */
 
+.navbar-brand .nav-item .nav-link{
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.7);
+}
+
+
 .navbar-brand{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    
+    margin-right: 1rem;
+    font-size: 35px;
+
 }
 
 .tombol{
@@ -34,7 +41,7 @@ body{
 
 .info-panel {
     background-color: white;
-    margin-top: -30px;
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(252, 251, 251, 0.7);
 }
@@ -88,6 +95,10 @@ body{
         text-shadow: 1px 1px 1px rgba(0,0,0, 0.7);
     }
 
+    .navbar-brand {
+        font-size: 20px;
+    }
+
     
 }
 
@@ -105,7 +116,9 @@ body{
 @media (max-width: 575.98px){
 
     .navbar-brand {
-        font-size: 10px;
+        font-size: 18px;
+        margin-right: -1rem;
+
     }
     
     .nav-link{
@@ -119,7 +132,7 @@ body{
     }
 
     .info-panel {
-        margin-top: -20px;
+        margin-top: 20px;
     }
    
     .info-panel h2 {
