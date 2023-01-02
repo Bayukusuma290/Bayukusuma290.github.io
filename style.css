@@ -4,6 +4,13 @@
     color: white;
 }
 
+.rincian p {
+    font-size: 20px;
+}
+
+.tentang h3 {
+    font-size: 50px;
+}
 
 
 
@@ -16,9 +23,67 @@
     border-radius: 40px;
 }
 
+/* produk */
+.produk {
+    background-image: url(image/elegant-white1.png);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.seragam{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    width: 396px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px;
+}
+
+.card-image {
+    background-color: white;
+    height: 350px;
+    margin-bottom: 15px;
+}
+
+.card-1 {
+    background-image: url(image/baju-mp.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card-2 {
+    background-image: url(image/celana-mp.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.card a {
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+/* detil.html */
+.detail {
+    background-color: black;
+    background-size: cover;
+}
+
+/* bahan */
+
 
 /* desktop*/
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 
 
     .nav-link {
@@ -36,14 +101,18 @@
         margin-bottom: -6px;
     }
 
-    .tentang:hover::after {
+    /* .tentang:hover::after {
         content: '';
         display: block;
         border-bottom: 3px solid red;
         width: 50%;
         padding: 3px;
         margin: auto;
-    }
+        padding-bottom: 3px;
+        margin-bottom: -9px;
+    } */
+
+    
 
 
 
@@ -53,22 +122,142 @@
 }
 
 
-
-
-/* handphone */
-@media (min-width: 576px) {
+/* Tablet */
+@media (max-width: 810px) {
 
     /* navbar */
+    .navbar-brand {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 30px;
+        font-weight: bolder;
+    }
 
+    .produk {
+        padding-top: 10px;
+    }
+
+    /* bahan */
+
+
+
+
+
+
+
+}
+
+/* handphone */
+@media (max-width: 450px) {
+    /* navbar */
+    .navbar-brand {
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 19px;
+        font-weight: bolder;
+    }
+
+    .navbar-toggler-icon {
+        height: 15px;
+        width: 15px;
+    }
+
+    /* tentang */
+    .rincian p {
+        font-size: 18px;
+    }
+
+    .tentang h3 {
+        font-size: 25px;
+    }
+
+
+    
+    .card {
+        background-color: white;
+        width: 296 px;
+        margin: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 10px;
+    }
+
+    .card-image {
+        background-color: white;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .card-1 {
+        background-image: url(image/baju-mp.png);
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    .card-2 {
+        background-image: url(image/celana-mp.png);
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+
+    .card a {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        display: block;
+        text-align: center;
+        margin: 20px 50px;
+        text-decoration: none;
+    }
+
+    .produk {
+        padding-top: 10px;
+    }
+
+}
+
+
+
+/* small handphone */
+@media (max-width: 375px) {
+
+    /* navbar */
+    .navbar-toggler-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .navbar-brand {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
 
     
     /* carousel */
     
 
     /* tentang */
+    .rincian p {
+        font-size: 15px;
+    }
+
+    .tentang h3 {
+        font-size: 20px;
+    }
+
+    .card a {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        display: block;
+        text-align: center;
+        margin: 10px 30px;
+        text-decoration: none;
+    }
 
 
 }
-
 
 
