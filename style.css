@@ -92,6 +92,7 @@
     text-align: center;
     margin: 20px 50px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 footer {
@@ -129,6 +130,7 @@ footer {
     text-align: center;
     margin: 20px 50px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 /* tentang */
