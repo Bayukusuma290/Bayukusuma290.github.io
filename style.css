@@ -73,13 +73,43 @@
     text-decoration: none;
 }
 
+footer {
+    background-image: url(image/elegant-black.png);
+}
+
 /* detil.html */
 .detail {
-    background-color: black;
+    background-image: url(image/elegant-black.png);
     background-size: cover;
 }
 
+
+.breadcrumb-item {
+    font-size: 18px;
+}
+
 /* bahan */
+.img .size {
+    
+    justify-content: center;
+}
+
+
+.alur-pesan {
+    background-image: url(image/elegant-white1.png);
+}
+
+.alur-pesan a {
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+
 
 
 /* desktop*/
@@ -100,21 +130,6 @@
         padding-bottom: 3px;
         margin-bottom: -6px;
     }
-
-    /* .tentang:hover::after {
-        content: '';
-        display: block;
-        border-bottom: 3px solid red;
-        width: 50%;
-        padding: 3px;
-        margin: auto;
-        padding-bottom: 3px;
-        margin-bottom: -9px;
-    } */
-
-    
-
-
 
    
 
