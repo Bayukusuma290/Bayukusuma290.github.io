@@ -22,6 +22,19 @@
     font-size: 50px;
 }
 
+/* about */
+.about a {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 
@@ -43,26 +56,6 @@
     margin-left: 0;
     margin-right: 0;
 }
-
-.seragam{
-    display: flex;
-    justify-content: center;
-}
-
-.card {
-    background-color: white;
-    width: 396px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 5px 10px;
-}
-
-.card-image {
-    background-color: white;
-    height: 350px;
-    margin-bottom: 15px;
-}
-
 .card-1 {
     background-image: url(image/baju-mp.png);
     background-size: cover;
@@ -81,19 +74,14 @@
     border-radius: 5px;
 }
 
-.card a {
-    background-color: green;
-    color: white;
-    padding: 15px 20px;
-    display: block;
-    text-align: center;
-    margin: 20px 50px;
-    text-decoration: none;
-    border-radius: 5px;
+.seragam{
+    display: flex;
+    justify-content: center;
 }
 
 footer {
     background-image: url(image/elegant-black.png);
+    background-size: cover;
 }
 
 /* detil.html */
@@ -114,6 +102,7 @@ footer {
 }
 
 
+
 .alur-pesan {
     background-image: url(image/elegant-white1.png);
     background-size: cover;
@@ -132,7 +121,7 @@ footer {
 
 /* tentang */
 
-.pelajari a {
+.pelajari  {
     background-color: green;
     color: white;
     padding: 10px 15px;
@@ -144,84 +133,48 @@ footer {
     border-radius: 5px;
 }
 
-.about {
-    background-image: url(image/elegant-white1.png);
-    background-size: cover;
-}
-
-.about img {
-    width: 50%;
-}
-
-/* desktop*/
-@media (max-width: 1200px) {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 374.98px) {
     
-
-
-
-    /* .nav-link:hover::after {
-        content: '';
-        display: block;
-        border-bottom: 3px solid red;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 3px;
-        margin-bottom: -6px;
+    /* navbar-brand */
+    .navbar-brand  {
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 17px;
     }
 
-    .tentang:hover::after {
-        content: '';
-        display: block;
-        border-bottom: 3px solid red;
-        width: 50%;
-        padding: 3px;
-        margin: auto;
-        padding-bottom: 3px;
-        margin-bottom: -9px;
-    } */
+    .navbar-toggler {
+        padding-left: 3px;
+        padding-right: 3px;
+        
+    }
 
+    .navbar-toggler-icon {
+        width: 25px;
+        height: 20px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
 
+    /* about */
+    .about h3 {
+        font-size: 23px;
+    }
     
-
-
-
-   
-
- 
-}
-
-
-/* Tablet */
-
-/* @media (min-width: 600px) {
-
-    .navbar-brand {
-        font-size: 400px;
-        font-weight: bold;
-        margin-right: 5px;
-        margin-left: 5px;
-    } */
-
-
-@media (max-width: 810px) {
-
-    .navbar-brand {
-        font-size: 50px;
-        font-weight: bold;
-        margin-right: 5px;
-        margin-left: 5px;
+    .about p {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: center;
+    
     }
 
-    .produk {
-        padding-top: 10px;
-    }
-
-    .nav-link {
-        text-transform: inherit;
-    }
-
-    .btn {
-        text-transform: inherit;
+    .about a {
+        margin: 20px 50px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 13px;
     }
 
     /* seragam */
@@ -229,231 +182,428 @@ footer {
         background-color: white;
         width: 300px;
         margin: 10px;
-        /* border-radius: 20px; */
-        box-shadow: 5px 10px;
-    }
-    
-    .card-image {
-        background-color: white;
-        height: 200px;
-        margin-bottom: 15px;
-    }
-    
-    .card-1 {
-        background-image: url(image/baju-mp.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-    
-    .card-2 {
-        background-image: url(image/celana-mp.png);
-        background-size: cover;
-        border-radius: 20px;
-    }
-    
-    .card-3 {
-        background-image: url(image/sabuk.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-    
-    .card a {
-        background-color: green;
-        color: white;
-        padding: 5px 10px;
-        display: block;
-        text-align: center;
-        margin: 10px 30px;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-
-
-
-
-
-}
-
-/* handphone */
-@media (max-width: 450px) {
-    /* navbar */
-   
-
-    .navbar-toggler-icon {
-        height: 15px;
-        width: 15px;
-    }
-
-    /* tentang */
-    .rincian p {
-        font-size: 18px;
-    }
-
-    .tentang h3 {
-        font-size: 25px;
-    }
-
-
-    
-    .card {
-        background-color: white;
-        width: 100 px;
-        margin: 10px;
-        /* border-radius: 20px; */
+        border-radius: 5px;
         box-shadow: 5px 10px;
     }
 
-    .card-image {
-        background-color: white;
-        height: 100px;
-        margin-bottom: 15px;
-    }
-
-    .card-1 {
-        background-image: url(image/baju-mp.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-
-    .card-2 {
-        background-image: url(image/celana-mp.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-
-    .card-3 {
-        background-image: url(image/sabuk.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-
-
-    .card a {
-        font-size: 10px;
-        background-color: green;
-        color: white;
-        padding: 5px 10px;
-        display: block;
-        text-align: center;
-        margin: 20px 10px;
-        text-decoration: none;
-    }
-
-    .card h4 {
-        font-size: 15px;
-    }
-
-    .produk {
-        padding-top: 10px;
-    }
-
-}
-
-/* small hp dan table */
-@media (min-width: 390px) {
-
-    /* navbar */
-    .navbar-brand {
-        font-size: 17px;
-        font-weight: bold;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-
-}
-
-
-
-/* small handphone */
-@media (max-width: 385px) {
-
-    /* navbar */
-    .navbar-toggler-icon {
-        height: 20px;
-        width: 20px;
-    }
-    .navbar-brand {
-        font-size: 15px;
-        font-weight: bold;
-        margin-right: 5px;
-        margin-left: 5px;
-    }
-
-    
-    /* carousel */
-    
-
-    /* tentang */
-    .rincian p {
-        font-size: 15px;
-    }
-
-    .tentang h3 {
-        font-size: 20px;
-    }
-
-    .card {
-        background-color: white;
-        width: 88px;
-        margin: 10px;
-        /* border-radius: 20px; */
-        box-shadow: 5px 10px;
-    }
-    
     .card-image {
         background-color: white;
         height: 70px;
-        margin-bottom: 5px;
+        width: 88px;
+        margin-bottom: 15px;
     }
-    
-    .card-1 {
-        background-image: url(image/baju-mp.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-    
-    .card-2 {
-        background-image: url(image/celana-mp.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-    
-    .card-3 {
-        background-image: url(image/sabuk.png);
-        background-size: cover;
-        /* border-radius: 20px; */
-    }
-    
+
+  
+
     .card a {
         background-color: green;
         color: white;
-        padding: 1px 1px;
+        padding: 5px 10px;
         display: block;
         text-align: center;
-        margin: 2px 2px;
+        margin: 10px 15px;
+        font-size: 8px;
         text-decoration: none;
-        font-weight: bold;
-        font-size: 10px;
-        width: 60px;
-        margin-left: 13px;
-        height: 15px;
-        text-align: center;
-        
+        border-radius: 5px;
     }
 
     .card h4 {
-        font-size: 12px;
-        margin-bottom: 2px;
+        font-size: 15px;
+    }
+    /* alur-pesan */
+    .alur-pesan a {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    /* tekstur */
+    .tekstur {
+        height: 200px;
+        width: 310px;
+    }
+    /* footer */
+    footer h4 {
+        font-size: 25px;
     }
 
-    .pesan-sekarang a {
-        font-size: 12px;
+    footer h6 {
+        font-size: 15px;
     }
+
+    footer p {
+        font-size: 10px;
+    }
+
+
+    
+
+}
+
+
+
+
+
+
+
+/* small devices (portrait phones, less than 576px) */
+@media (min-width: 375px) and (max-width: 500px) {
+    
+    /* navbar-brand */
+    .navbar-brand  {
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 16px;
+    }
+    .navbar-toggler {
+        padding-left: 3px;
+        padding-right: 3px;
+        
+    }
+
+    .navbar-toggler-icon {
+        width: 25px;
+        height: 23px;
+        padding-bottom: 2px;
+        padding-top: 2px;
+    }
+
+    
+    /* about */
+    .about h3 {
+        font-size: 23px;
+    }
+    
+    .about p {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+
+    .about a {
+        margin: 20px 50px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+
+    /* produk */
+    .card {
+        background-color: white;
+        width: 93px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 10px;
+    }
+
+    .card-image {
+        background-color: white;
+        height: 80px;
+        width: 91px;
+        margin-bottom: 15px;
+    }
+
+    .card a {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        display: block;
+        text-align: center;
+        margin: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .card h4 {
+        font-size: 15px;
+    }
+
+    /* tekstur */
+    .tekstur {
+        height: 200px;
+        width: 330px;
+    }
+
+    /* footer */
+    footer h4 {
+        font-size: 25px;
+    }
+
+    footer h6 {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 500.02px) and (max-width: 767.98px) {
+
+    /* navbar */
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 16px;
+    }
+    /* about */
+    .about h3 {
+        font-size: 23px;
+    }
+    
+    .about p {
+        font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+
+    .about a {
+        margin: 20px 50px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+     /* produk */
+     .card {
+        background-color: white;
+        width: 150px;
+        height: 250px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 10px;
+    }
+
+    .card-image {
+        background-color: white;
+        width: 150px;
+        height: 130px;
+        margin-bottom: 15px;
+    }
+
+    .card a {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        display: block;
+        text-align: center;
+        margin: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 10px;
+    }
+    .card h4 {
+        font-size: 20px;
+    }
+    /* tekstur */
+    .tekstur {
+        height: 200px;
+        width: 410px;
+    }
+    /* footer */
+    footer h4 {
+        font-size: 25px;
+    }
+
+    footer h6 {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+    
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* navbar */
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 16px;
+    }
+    /* about */
+    .about h3 {
+        font-size: 27px;
+    }
+    .about p {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+    .about a {
+        margin: 20px 50px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 13px;
+    }
+       /* produk */
+       .card {
+        background-color: white;
+        width: 210px;
+        height: 300px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 10px;
+    }
+
+    .card-image {
+        background-color: white;
+        width: 200px;
+        height: 180px;
+        margin-bottom: 15px;
+    }
+
+    .card a {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        display: block;
+        text-align: center;
+        margin: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    .card h4 {
+        font-size: 25px;
+    }
+    /* tekstur */
+    .tekstur {
+        height: 250px;
+        width: 550px;
+    }
+
+    /* footer */
+    footer h4 {
+        font-size: 25px;
+    }
+
+    footer h6 {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    /* navbar */
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .about {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .about h3 {
+        font-size: 39px;
+    }
+    
+    .about p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-right: 100px;
+        padding-left: 100px;
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+    
+    
+
+    .about h3::after:hover {
+        content: '';
+        display: block;
+        border-bottom: 2 solid red;
+    }
+
+       /* produk */
+       .card {
+        background-color: white;
+        width: 290px;
+        height: 370px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 5px 10px;
+    }
+
+    .card-image {
+        background-color: white;
+        width: 290px;
+        height: 270px;
+        margin-bottom: 15px;
+
+    }
+
+    .card a {
+        background-color: green;
+        color: white;
+        padding: 10px 15px;
+        display: block;
+        text-align: center;
+        margin: 15px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .card h4 {
+        font-size: 25px;
+    }
+    /* footer */
+    footer h4 {
+        font-size: 45px;
+    }
+
+    footer h6 {
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 15px;
+    }
+
 
 
 
 }
+
+
+
+
+
+
+
 
 
