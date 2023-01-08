@@ -1,11 +1,8 @@
 
 /* navbar */
 
-.navbar-brand {
-    margin-left: 120px;
-    font-weight: bolder;
-    font-size: 35px;
-}
+
+
 
 .navbar-brand .nav-link {
     color: white;
@@ -195,14 +192,24 @@ footer {
 
 
 /* Tablet */
+
+/* @media (min-width: 600px) {
+
+    .navbar-brand {
+        font-size: 400px;
+        font-weight: bold;
+        margin-right: 5px;
+        margin-left: 5px;
+    } */
+
+
 @media (max-width: 810px) {
 
-    /* navbar */
     .navbar-brand {
-        margin-right: 20px;
-        margin-left: 20px;
-        font-size: 30px;
-        font-weight: bolder;
+        font-size: 50px;
+        font-weight: bold;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 
     .produk {
@@ -271,12 +278,7 @@ footer {
 /* handphone */
 @media (max-width: 450px) {
     /* navbar */
-    .navbar-brand {
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 19px;
-        font-weight: bolder;
-    }
+   
 
     .navbar-toggler-icon {
         height: 15px;
@@ -348,22 +350,35 @@ footer {
 
 }
 
+/* small hp dan table */
+@media (min-width: 390px) {
+
+    /* navbar */
+    .navbar-brand {
+        font-size: 17px;
+        font-weight: bold;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+
+}
+
 
 
 /* small handphone */
-@media (max-width: 375px) {
+@media (max-width: 385px) {
 
     /* navbar */
     .navbar-toggler-icon {
         height: 20px;
         width: 20px;
     }
-
     .navbar-brand {
-        margin-right: 20px;
-        margin-left: 20px;
         font-size: 15px;
-        font-weight: bolder;
+        font-weight: bold;
+        margin-right: 5px;
+        margin-left: 5px;
     }
 
     
