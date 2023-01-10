@@ -85,6 +85,7 @@
 .alur-pesan {
     background-image: url(image/elegant-white1.png);
     background-size: cover;
+    
 }
 
 .alur-pesan a {
@@ -133,6 +134,9 @@
         height: 20px;
         padding-bottom: 2px;
         padding-top: 2px;
+    }
+    .nav-link {
+        text-transform: inherit;
     }
 
     /* about */
@@ -213,6 +217,9 @@
         padding-bottom: 2px;
         padding-top: 2px;
     }
+    .nav-link {
+        text-transform: inherit;
+    }
 
     
     /* about */
@@ -269,6 +276,9 @@
         font-weight: bold;
         font-size: 20px;
         margin-left: 16px;
+    }
+    .nav-link {
+        text-transform: inherit;
     }
     /* about */
     .about h3 {
@@ -327,6 +337,10 @@
         font-size: 30px;
         margin-left: 16px;
     }
+    .nav-link {
+        text-transform: inherit;
+    }
+
     /* about */
     .about h3 {
         font-size: 27px;
@@ -380,6 +394,11 @@
         font-size: 30px;
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        
     }
 
     .about {
